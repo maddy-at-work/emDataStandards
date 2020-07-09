@@ -25,6 +25,11 @@
         "type": "number",
         "example": 100.00
       },
+        "averageTransaction": {
+        "description": " The average transaction is the average of total transaction value divide by the number of passengers involved in the transaction.",
+        "type": "number",
+        "example": 100.00
+      },
       "bookings": {
         "description": "Bookings are counted whenever a user completes a flight reservation, also known as number of transactions.",
         "type": "number",
